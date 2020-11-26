@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(90deg, rgb(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url(../img/header.jpg);
+    background: linear-gradient(90deg, rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0)), url(../img/header.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ header{
     color: transparent;
 }
 .musirech h1{
-    font-size: 4.5rem;
+    font-size: 4.25rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color:white;
