@@ -1,13 +1,51 @@
+/* Globals*/
+.contenedor{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.separador{
+    margin-top: 4.7rem;
+}
+.text-center{
+    text-align: center;
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+.centrar-column{
+    justify-content: center;
+}
+.columnas-4{
+    flex: 0 0 calc(33.33% - 1rem);
+}
+.columnas-4c{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(33.33% - 1rem);
+    justify-content: center;
+    align-items: center;
+}
+.columnas-6{
+    flex: 0 0 calc(50% - 1rem);
+}
+.columnas-8{
+    flex: 0 0 calc(66.66%);
+}
+.columnas-10{
+    flex: 0 0 calc(83.33% - 1rem)
+}
+.columnas-12{
+    flex: 0 0 calc(100% - 1rem)
+}
+/* Header */
 header{
     background: linear-gradient(90deg, rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../img/header.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.contenedor{
-    max-width: 80%;
-    margin: 0 auto;
 }
 .barra{
     display: flex;
@@ -18,9 +56,12 @@ header{
 .navegacion{
     display:flex;
     flex-direction: column;
+    background-color: #0000002c;
+    padding: 5rem 0;
 }
 .navegacion a{
-    margin: 1.5rem 2.5rem;
+    text-align:center;
+    margin: 3.5rem 1.5rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -32,9 +73,46 @@ header{
     -webkit-background-clip: text;
     color: transparent;
 }
-.musirech h1{
-    font-size: 4.25rem;
+.musirech a{
+    letter-spacing: 5px;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     color:white;
+}
+.musirech a :hover{
+    background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* Acaba header */
+/* Otra sec */
+.mot{
+    line-height: 3;
+} 
+.mainimgs{
+    width: 33.33vh;
+    height: 33.33vh;
+}
+.sell1{
+    height: 33.33vh;
+    background: linear-gradient(90deg, #0e2a50, #9e9fff);
+}
+.orgsell{
+    display: flex;
+    justify-content: space-between;
+}
+.White{
+    color:white;
+    letter-spacing: 3px;
+}
+.sell2{
+    display: flex;
+    padding-left: 10%;
+    height: 33.33vh;
+    background: linear-gradient(90deg, #f8f666, #dfbe01);
+}
+/*FOOTER*/
+footer{
+    height: 20vh;
+    background-color: #000000;
 }
