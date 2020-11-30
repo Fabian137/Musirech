@@ -36,15 +36,18 @@ p{
 .centrar-column{
   justify-content: center;
 }
+.columnas-2{
+  flex: 0 0 calc(16.66666%);
+}
 .columnas-3{
   flex: 0 0 calc(25%);
 }
 .columnas-4{
-  flex: 0 0 calc(33.33%);}
+  flex: 0 0 calc(33.3333%);}
 .columnas-4c{
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(33.333333% - 1rem);
+  flex: 0 0 calc(33.33333% - 1rem);
   justify-content: center;
   align-items: center;}
 .columnas-6{
