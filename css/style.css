@@ -9,39 +9,14 @@
 .text-center{
     text-align: center;
 }
-.grid{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2.5rem;
-}
-.centrar-column{
-    justify-content: center;
-}
-.columnas-4{
-    flex: 0 0 calc(33.33% - 1rem);
-}
-.columnas-4c{
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 calc(33.33% - 1rem);
-    justify-content: center;
-    align-items: center;
-}
-.columnas-6{
-    flex: 0 0 calc(50% - 1rem);
-}
-.columnas-8{
-    flex: 0 0 calc(66.66%);
-}
-.columnas-10{
-    flex: 0 0 calc(83.33% - 1rem)
-}
-.columnas-12{
-    flex: 0 0 calc(100% - 1rem)
+.position{
+    background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 /* Header */
 header{
-    background: linear-gradient(90deg, rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../img/header.jpg);
+    background: linear-gradient(90deg, rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../img/albumimg/AlwASc.jpeg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,20 +28,48 @@ header{
     align-items: center;
     height: 100vh;
 }
+.barra2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000071;
+    padding: 1rem 0;
+}
 .navegacion{
     display:flex;
     flex-direction: column;
     background-color: #0000002c;
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 .navegacion a{
     text-align:center;
-    margin: 3.5rem 1.5rem;
+    margin: 3rem 1.5rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     color: white;
+}
+.navegacion2{
+    display:flex;
+}
+.navegacion2 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+.navegacion2 .position{
+    background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.barra2 :hover{
+    background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .navegacion :hover{
     background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
@@ -93,6 +96,9 @@ header{
     width: 33.33vh;
     height: 33.33vh;
 }
+.iconm{
+    width: 20vh;
+}
 .sell1{
     height: 33.33vh;
     background: linear-gradient(90deg, #0e2a50, #9e9fff);
@@ -100,6 +106,7 @@ header{
 .orgsell{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .White{
     color:white;
@@ -109,10 +116,34 @@ header{
     display: flex;
     padding-left: 10%;
     height: 33.33vh;
-    background: linear-gradient(90deg, #f8f666, #dfbe01);
+    background: linear-gradient(90deg, #000000, #1c003b);
 }
 /*FOOTER*/
 footer{
     height: 20vh;
     background-color: #000000;
+}
+
+.coloretion{
+    background: linear-gradient(90deg, rgb(44, 0, 48),rgb(0, 0, 0));
+}
+.coloretion2{
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/albumimg/stMU.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-height: 33.33vh;
+    min-height: 30vh;
+    background-repeat: no-repeat;
+}
+.coloretion3{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.014), rgba(0, 0, 0, 0)), url(../img/albumimg/AlwASc.jpeg);
+    max-height: 33.3vh;
+    min-height: 33.3vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.coloretion4{
+    background: linear-gradient(90deg, rgb(0, 0, 0),rgb(32, 0, 32));
 }

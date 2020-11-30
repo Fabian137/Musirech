@@ -10,6 +10,7 @@
   }
 h1{
   font-size: 4rem;
+  margin: 0.4rem 0;
 }
 h2,h3,h4{
     font-family: sans-serif;
@@ -28,6 +29,34 @@ h4{
 p{
     font-size: 1.4rem;
 }
+.grid{
+  display: flex;
+  justify-content: space-between;
+}
+.centrar-column{
+  justify-content: center;
+}
+.columnas-3{
+  flex: 0 0 calc(25%);
+}
+.columnas-4{
+  flex: 0 0 calc(33.33%);}
+.columnas-4c{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(33.33% - 1rem);
+  justify-content: center;
+  align-items: center;}
+.columnas-6{
+  flex: 0 0 calc(50%);}
+.columnas-8{
+  flex: 0 0 calc(66.66%);}
+.columnas-10{
+  flex: 0 0 calc(83.33% - 1rem)}
+.columnas-9{
+  flex: 0 0 calc(75%);}
+.columnas-12{
+  flex: 0 0 calc(100% - 1rem)}
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
