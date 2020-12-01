@@ -16,6 +16,41 @@
     .barra{
         height: 100vh;
         justify-content: flex-end;
+        .grid{
+            display: flex;
+            justify-content: space-between;
+          }
+          .centrar-column{justify-content: center;}
+          .columnas-1{flex: 0 0 8.3333%;
+          }
+          .columnas-2{
+            flex: 0 0 calc(16.66666%);
+          }
+          .columnas-3{
+            flex: 0 0 25%;
+          }
+          .columnas-4{
+            flex: 0 0 calc(33.3333%);}
+          .columnas-4c{
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 calc(33.3333333% - 1rem);
+            justify-content: center;
+            align-items: center;}
+          .columnas-6{
+            flex: 0 0 50%;}
+          .columnas-5{flex: 0 0 41.66666667%;}
+          .columnas-7{flex: 0 0 58.33333333%;}
+          .columnas-8{flex: 0 0 66.666667%;}
+          .columnas-10{flex: 0 0 84.33%;}
+          .columnas-9{ flex: 0 0 75%;}
+          .columnas-12{flex: 0 0 calc(100% - 1rem);}
+          .columnas-12c{flex: 0 0 100%);}
     }
 
+}
+.gridhead{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

@@ -19,6 +19,18 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+.fondopages{
+    background-image: url(../img/albumimg/EcosJack.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.fondfooter{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.774)), url(../img/albumimg/EcosJack.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
 .barra{
     display: flex;
     justify-content: flex-end;
@@ -88,10 +100,6 @@
 /* Otra sec */
 .mot{
     line-height: 3;
-} 
-.mainimgs{
-    width: 33.33vh;
-    height: 33.33vh;
 }
 .iconm{
     width: 7.5rem;
@@ -99,11 +107,6 @@
 .White{
     color:white;
     letter-spacing: 3px;
-}
-/*FOOTER*/
-footer{
-    height: 20vh;
-    background-color: #000000;
 }
 
 .coloretion{
@@ -128,4 +131,11 @@ footer{
 }
 .coloretion4{
     background: linear-gradient(90deg, rgb(0, 0, 0),rgb(28, 0, 44));
+}
+/*FOOTER*/
+.fot{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

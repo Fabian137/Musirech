@@ -51,12 +51,12 @@ p{font-size: 1.4rem;}
 .columnas-6{
   flex: 0 0 calc(50%);}
 .columnas-5{flex: 0 0 41.6666%;}
-.columnas-7{flex: 0 0 58.3333%}
+.columnas-7{flex: 0 0 58.3333%;}
 .columnas-8{flex: 0 0 calc(66.666666%);}
-.columnas-10{flex: 0 0 calc(83.33% - 1rem)}
+.columnas-10{flex: 0 0 calc(83.33% - 1rem);}
 .columnas-9{ flex: 0 0 calc(75%);}
-.columnas-12{flex: 0 0 calc(100% - 1rem)}
-.columnas-12c{flex: 0 0 100%}
+.columnas-12{flex: 0 0 calc(100% - 1rem);}
+.columnas-12c{flex: 0 0 100%);}
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
