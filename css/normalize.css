@@ -32,7 +32,7 @@ p{font-size: 1.4rem;}
   justify-content: space-between;
 }
 .centrar-column{justify-content: center;}
-.columnas-1{flex: 0 0 8.3333%;
+.columnas-1{flex: 0 0 8.33333333%;
 }
 .columnas-2{
   flex: 0 0 calc(16.66666%);
