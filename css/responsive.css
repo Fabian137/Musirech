@@ -1,0 +1,21 @@
+@media (min-width: 320px){
+    h1{font-size: 3.1rem;}
+    .barra{
+        height: 70vh;
+        justify-content: center;
+    }
+    .grid{
+        display: none;
+    }
+
+}
+@media (min-width:768px){
+    .grid{
+        display: flex;
+    }
+    .barra{
+        height: 100vh;
+        justify-content: flex-end;
+    }
+
+}

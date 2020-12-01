@@ -26,16 +26,12 @@ h4{
     font-size: 2rem;
     font-weight: 100;
 }
-p{
-    font-size: 1.4rem;
-}
+p{font-size: 1.4rem;}
 .grid{
   display: flex;
   justify-content: space-between;
 }
-.centrar-column{
-  justify-content: center;
-}
+.centrar-column{justify-content: center;}
 .columnas-1{flex: 0 0 8.3333%;
 }
 .columnas-2{
@@ -49,21 +45,18 @@ p{
 .columnas-4c{
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(33.33333% - 1rem);
+  flex: 0 0 calc(33.3333333% - 1rem);
   justify-content: center;
   align-items: center;}
 .columnas-6{
   flex: 0 0 calc(50%);}
 .columnas-5{flex: 0 0 41.6666%;}
 .columnas-7{flex: 0 0 58.3333%}
-.columnas-8{
-  flex: 0 0 calc(66.66666%);}
-.columnas-10{
-  flex: 0 0 calc(83.33% - 1rem)}
-.columnas-9{
-  flex: 0 0 calc(75%);}
-.columnas-12{
-  flex: 0 0 calc(100% - 1rem)}
+.columnas-8{flex: 0 0 calc(66.666666%);}
+.columnas-10{flex: 0 0 calc(83.33% - 1rem)}
+.columnas-9{ flex: 0 0 calc(75%);}
+.columnas-12{flex: 0 0 calc(100% - 1rem)}
+.columnas-12c{flex: 0 0 100%}
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
@@ -158,12 +151,8 @@ p{
     padding: 0; /* 3 */
     white-space: normal; /* 1 */
   }
-  progress {
-    vertical-align: baseline;
-  }
-  textarea {
-    overflow: auto;
-  }
+  progress {vertical-align: baseline;}
+  textarea {overflow: auto;}
   [type="checkbox"],
   [type="radio"] {
     box-sizing: border-box; /* 1 */
