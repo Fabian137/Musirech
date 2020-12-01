@@ -3,28 +3,25 @@
     max-width: 80%;
     margin: 0 auto;
 }
-.separador{
-    margin-top: 4.7rem;
-}
-.text-center{
-    text-align: center;
-}
+.separador{margin-top: 4.7rem;}
+.text-center{text-align: center;}
 .position{
     background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
     -webkit-background-clip: text;
     color: transparent;
 }
 /* Header */
-header{
-    background: linear-gradient(90deg, rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../img/albumimg/AlwASc.jpeg);
+.headColor{background-color: #000000;}
+.headColumn{
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/franz-still.jpg);
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .barra{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: 100vh;
 }
@@ -33,13 +30,13 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #00000071;
-    padding: 1rem 0;
 }
 .navegacion{
     display:flex;
     flex-direction: column;
-    background-color: #0000002c;
-    padding: 4rem 0;
+    justify-content: center;
+    background-color: #00000059;
+    height: 100vh;
 }
 .navegacion a{
     text-align:center;
@@ -47,7 +44,7 @@ header{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 .navegacion2{
@@ -58,7 +55,7 @@ header{
     font-family: 'Roboto', sans-serif;
     margin-right: 1.5rem;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
 }
 .navegacion2 .position{
@@ -97,26 +94,11 @@ header{
     height: 33.33vh;
 }
 .iconm{
-    width: 20vh;
-}
-.sell1{
-    height: 33.33vh;
-    background: linear-gradient(90deg, #0e2a50, #9e9fff);
-}
-.orgsell{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 7.5rem;
 }
 .White{
     color:white;
     letter-spacing: 3px;
-}
-.sell2{
-    display: flex;
-    padding-left: 10%;
-    height: 33.33vh;
-    background: linear-gradient(90deg, #000000, #1c003b);
 }
 /*FOOTER*/
 footer{
@@ -125,10 +107,10 @@ footer{
 }
 
 .coloretion{
-    background: linear-gradient(90deg, rgb(44, 0, 48),rgb(0, 0, 0));
+    background: linear-gradient(90deg, rgb(44, 0, 48),rgb(0, 0, 20));
 }
 .coloretion2{
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/albumimg/stMU.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 20, 0.822), rgba(0, 0, 0, 0)), url(../img/albumimg/stMU.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -137,7 +119,7 @@ footer{
     background-repeat: no-repeat;
 }
 .coloretion3{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.014), rgba(0, 0, 0, 0)), url(../img/albumimg/AlwASc.jpeg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.014), rgba(187, 24, 24, 0)), url(../img/albumimg/AlwASc.jpeg);
     max-height: 33.3vh;
     min-height: 33.3vh;
     background-size: cover;
@@ -145,5 +127,5 @@ footer{
     background-repeat: no-repeat;
 }
 .coloretion4{
-    background: linear-gradient(90deg, rgb(0, 0, 0),rgb(32, 0, 32));
+    background: linear-gradient(90deg, rgb(0, 0, 0),rgb(28, 0, 44));
 }
