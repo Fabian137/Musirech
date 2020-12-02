@@ -19,14 +19,15 @@ h2{
     font-size: 3rem;
 }
 h3{
-    font-size: 2.9rem;
+    font-size: 2.7rem;
     font-weight: 600;
+    margin: 0.5rem 0;
 }
 h4{
     font-size: 2rem;
     font-weight: 100;
 }
-p{font-size: 1.4rem;}
+p{font-size: 1rem; margin: 0;}
 .grid{
   display: flex;
   justify-content: space-between;
@@ -56,7 +57,7 @@ p{font-size: 1.4rem;}
 .columnas-10{flex: 0 0 calc(83.33% - 1rem);}
 .columnas-9{ flex: 0 0 calc(75%);}
 .columnas-12{flex: 0 0 calc(100% - 1rem);}
-.columnas-12c{flex: 0 0 100%);}
+.columnas-12c{flex: 0 0 100%;}
   hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
@@ -84,9 +85,7 @@ p{font-size: 1.4rem;}
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
   }
-  small {
-    font-size: 80%;
-  }
+  small {    font-size: 80%;}
   sub,
   sup {
     font-size: 75%;
@@ -97,12 +96,8 @@ p{font-size: 1.4rem;}
   sub {
     bottom: -0.25em;
   }
-  sup {
-    top: -0.5em;
-  }
-  img {
-    border-style: none;
-  }
+  sup {    top: -0.5em;}
+  img {    border-style: none;}
   button,
   input,
   optgroup,

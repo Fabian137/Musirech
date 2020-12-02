@@ -37,12 +37,7 @@
     align-items: center;
     height: 100vh;
 }
-.barra2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00000071;
-}
+
 .navegacion{
     display:flex;
     flex-direction: column;
@@ -101,12 +96,10 @@
 .mot{
     line-height: 3;
 }
-.iconm{
-    width: 7.5rem;
-}
-.White{
+.iconm{width: 7.5rem;}
+.White2{
     color:white;
-    letter-spacing: 3px;
+    font-family: sans-serif;
 }
 
 .coloretion{

@@ -1,11 +1,56 @@
+@media (min-width:768px){
+    .grid{
+        display: flex;
+    }
+    .barra{
+        height: 100vh;
+        justify-content: flex-end;}
+    .grid{
+        display: flex;
+        justify-content: space-between;
+        }
+        .barra2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #00000071;
+        }
+        .centrar-column{justify-content: center;}
+        .columnas-1{flex: 0 0 8.3333%;}
+        .columnas-2{flex: 0 0 calc(16.66666%);}
+        .columnas-3{flex: 0 0 25%;}
+        .columnas-4{flex: 0 0 calc(33.3333%);}
+        .columnas-4c{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 calc(33.3333333% - 1rem);
+        justify-content: center;
+        align-items: center;}
+        .columnas-6{flex: 0 0 50%;}
+        .columnas-5{flex: 0 0 41.66666667%;}
+        .columnas-7{flex: 0 0 58.33333333%;}
+        .columnas-8{flex: 0 0 66.666667%;}
+        .columnas-10{flex: 0 0 84.33%;}
+        .columnas-9{ flex: 0 0 75%;}
+        .columnas-12{flex: 0 0 calc(100% - 1rem);}
+        .columnas-12ce{flex: 0 0 100%;}
+.gridhead{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+}
 @media (min-width: 320px){
     h1{font-size: 3.1rem;}
+    .musirech a{
+        text-align: center;
+    }
     .barra{
         height: 70vh;
         justify-content: center;
     }
     .grid{
-        display: flex;
+        display: block;
     }
     .barra2{
         background-color: transparent;
@@ -16,7 +61,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 87vh;
+        align-items: center;
+        height: 80vh;
     }
     .navegacion2 a{
         color:black;
@@ -26,50 +72,15 @@
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.199), rgba(255, 255, 255, 0.973)), url(../img/albumimg/EcosJack.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 97vh;
     }
-}
-@media (min-width:768px){
-    .grid{
+    .fondfooter{height: 45vh;}
+    .fo{padding-top: 0.8rem;}
+    .copyri{
         display: flex;
+        margin-top: 2.7rem;
+        align-items: center;
+        height: 10vh;
+        background-color: #000016ee;
     }
-    .barra{
-        height: 100vh;
-        justify-content: flex-end;}
-        .grid{
-            display: flex;
-            justify-content: space-between;
-          }
-          .centrar-column{justify-content: center;}
-          .columnas-1{flex: 0 0 8.3333%;
-          }
-          .columnas-2{
-            flex: 0 0 calc(16.66666%);
-          }
-          .columnas-3{
-            flex: 0 0 25%;
-          }
-          .columnas-4{
-            flex: 0 0 calc(33.3333%);}
-          .columnas-4c{
-            display: flex;
-            flex-direction: column;
-            flex: 0 0 calc(33.3333333% - 1rem);
-            justify-content: center;
-            align-items: center;}
-          .columnas-6{
-            flex: 0 0 50%;}
-          .columnas-5{flex: 0 0 41.66666667%;}
-          .columnas-7{flex: 0 0 58.33333333%;}
-          .columnas-8{flex: 0 0 66.666667%;}
-          .columnas-10{flex: 0 0 84.33%;}
-          .columnas-9{ flex: 0 0 75%;}
-          .columnas-12{flex: 0 0 calc(100% - 1rem);}
-          .columnas-12c{flex: 0 0 100%);}
-
-}
-.gridhead{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
