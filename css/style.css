@@ -23,7 +23,7 @@
     height: 100vh;
 }
 .fondfooter{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.774)), url(../img/albumimg/EcosJack.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.89)), url(../img/albumimg/EcosJack.jpg);
     background-size: cover;
     background-position: center;
     height: 30vh;
@@ -120,4 +120,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.grid2{display: flex; justify-content: center;}
+.vpy{
+    width: 1.5rem;
 }

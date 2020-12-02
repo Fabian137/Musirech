@@ -1,4 +1,4 @@
-@media (min-width:768px){
+@media (min-width:769px){
     .grid{
         display: flex;
     }
@@ -9,24 +9,33 @@
         display: flex;
         justify-content: space-between;
         }
-        .barra2{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #00000071;
-        }
-        .navegacion2{            }
-.gridhead{
+    .barra2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000071;
+    flex-direction: row;
+
+    }
+    .fondfooter{height: 40vh;}
+    .fo{padding-top: 1.4rem;}
+    .copyri{
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        background-color: #000016;
+    }
+    .gridhead{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    }
+    .copyri p{
+        padding-left: 20%;
+        width: 100%;
+    }
 }
-.copyri p{
-    padding-left: 20%;
-    width: 100%;
-}
-}
-@media (min-width: 320px) and (max-width:767px){
+@media (min-width: 320px) and (max-width:768px){
     h1{font-size: 3.1rem;}
     .musirech a{
         text-align: center;
@@ -38,12 +47,8 @@
     .grid{
         display: block;
     }
-    .grid2{display: flex; justify-content: center;}
-    .vpy{
-        width: 1.5rem;
-    }
+
     .barra2{
-        background-color: transparent;
         display: flex;
         flex-direction: column;
     }
@@ -65,7 +70,7 @@
         height: 97vh;
     }
     .fondfooter{height: 40vh;}
-    .fo{padding-top: 0.8rem;}
+    .fo{padding-top: 1.4rem;}
     .copyri{
         display: flex;
         align-items: center;
@@ -73,5 +78,4 @@
         height: 10vh;
         background-color: #000016;
     }
-
 }
