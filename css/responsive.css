@@ -83,4 +83,8 @@
         height: 10vh;
         background-color: #000016;
     }
+    .copyri p{
+        padding-left: 20%;
+        width: 100%;
+    }
 }
