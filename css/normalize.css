@@ -4,6 +4,7 @@
   }
   body {
     margin: 0;
+    font-family: sans-serif;
   }
   main {
     display: block;
@@ -19,7 +20,7 @@ h2{
     font-size: 3rem;
 }
 h3{
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     font-weight: 600;
     margin: 0.5rem 0;
 }
@@ -33,24 +34,18 @@ p{font-size: 1rem; margin: 0;}
   justify-content: space-between;
 }
 .centrar-column{justify-content: center;}
-.columnas-1{flex: 0 0 8.33333333%;
-}
-.columnas-2{
-  flex: 0 0 calc(16.66666%);
-}
-.columnas-3{
-  flex: 0 0 calc(25%);
-}
-.columnas-4{
-  flex: 0 0 calc(33.3333%);}
+.columnas-1{flex: 0 0 8.33333333%;}
+.columnas-2{flex: 0 0 calc(16.66666%);}
+.columnas-3{flex: 0 0 calc(25%);}
+.columnas-4{flex: 0 0 calc(33.3333%);}
 .columnas-4c{
   display: flex;
   flex-direction: column;
   flex: 0 0 calc(33.3333333% - 1rem);
   justify-content: center;
-  align-items: center;}
-.columnas-6{
-  flex: 0 0 calc(50%);}
+  align-items: center;
+  padding-top: 1.5rem}
+.columnas-6{flex: 0 0 calc(50%);}
 .columnas-5{flex: 0 0 41.6666%;}
 .columnas-7{flex: 0 0 58.3333%;}
 .columnas-8{flex: 0 0 calc(66.666666%);}

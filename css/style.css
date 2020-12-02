@@ -1,8 +1,5 @@
 /* Globals*/
-.contenedor{
-    max-width: 80%;
-    margin: 0 auto;
-}
+.contenedor{max-width: 80%;margin: 0 auto;}
 .separador{margin-top: 4.7rem;}
 .text-center{text-align: center;}
 .position{
@@ -37,7 +34,6 @@
     align-items: center;
     height: 100vh;
 }
-
 .navegacion{
     display:flex;
     flex-direction: column;
@@ -54,9 +50,7 @@
     font-size: 1.2rem;
     color: white;
 }
-.navegacion2{
-    display:flex;
-}
+.navegacion2{display:flex;}
 .navegacion2 a{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -93,15 +87,10 @@
 }
 /* Acaba header */
 /* Otra sec */
-.mot{
-    line-height: 3;
-}
+.mot{line-height: 3;}
 .iconm{width: 7.5rem;}
-.White2{
-    color:white;
-    font-family: sans-serif;
-}
-
+.White2{color:white;font-family: sans-serif;}
+.letext {line-height: 1.4; font-size: 1.2rem;}
 .coloretion{
     background: linear-gradient(90deg, rgb(44, 0, 48),rgb(0, 0, 20));
 }

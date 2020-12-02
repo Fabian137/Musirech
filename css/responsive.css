@@ -15,32 +15,18 @@
             align-items: center;
             background-color: #00000071;
         }
-        .centrar-column{justify-content: center;}
-        .columnas-1{flex: 0 0 8.3333%;}
-        .columnas-2{flex: 0 0 calc(16.66666%);}
-        .columnas-3{flex: 0 0 25%;}
-        .columnas-4{flex: 0 0 calc(33.3333%);}
-        .columnas-4c{
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 calc(33.3333333% - 1rem);
-        justify-content: center;
-        align-items: center;}
-        .columnas-6{flex: 0 0 50%;}
-        .columnas-5{flex: 0 0 41.66666667%;}
-        .columnas-7{flex: 0 0 58.33333333%;}
-        .columnas-8{flex: 0 0 66.666667%;}
-        .columnas-10{flex: 0 0 84.33%;}
-        .columnas-9{ flex: 0 0 75%;}
-        .columnas-12{flex: 0 0 calc(100% - 1rem);}
-        .columnas-12ce{flex: 0 0 100%;}
+        .navegacion2{            }
 .gridhead{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.copyri p{
+    padding-left: 20%;
+    width: 100%;
 }
-@media (min-width: 300px){
+}
+@media (min-width: 320px) and (max-width:767px){
     h1{font-size: 3.1rem;}
     .musirech a{
         text-align: center;
@@ -51,6 +37,10 @@
     }
     .grid{
         display: block;
+    }
+    .grid2{display: flex; justify-content: center;}
+    .vpy{
+        width: 1.5rem;
     }
     .barra2{
         background-color: transparent;
@@ -74,17 +64,14 @@
         background-position: center;
         height: 97vh;
     }
-    .fondfooter{height: 45vh;}
+    .fondfooter{height: 40vh;}
     .fo{padding-top: 0.8rem;}
     .copyri{
         display: flex;
         align-items: center;
-        padding-left: 0.3rem;
+        justify-content: center;
         height: 10vh;
         background-color: #000016;
     }
-    .copyri p{
-        padding-left: 20%;
-        width: 100%;
-    }
+
 }
