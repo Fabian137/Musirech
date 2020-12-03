@@ -10,14 +10,14 @@
 /* Header */
 .headColor{background-color: #000000;}
 .headColumn{
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/franz-still.jpg);
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/thumb-1920-34981.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .fondopages{
-    background-image: url(../img/albumimg/EcosJack.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.199), rgba(255, 255, 255, 0.973)), url(../img/albumimg/EcosJack.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -121,7 +121,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.grid2{display: flex; justify-content: center;}
+.grid2{display: flex; justify-content: center; height:15vh; align-items: center;}
 .vpy{
     width: 1.5rem;
 }

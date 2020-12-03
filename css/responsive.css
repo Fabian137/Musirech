@@ -1,21 +1,20 @@
-@media (min-width:769px){
+@media (min-width:768px){
     .grid{
         display: flex;
+        justify-content: space-between;
+    }
+    .vpy{
+        width: 3rem;
     }
     .barra{
         height: 100vh;
         justify-content: flex-end;}
-    .grid{
-        display: flex;
-        justify-content: space-between;
-        }
     .barra2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #00000071;
     flex-direction: row;
-
     }
     .fondfooter{height: 40vh;}
     .fo{padding-top: 1.4rem;}
@@ -34,20 +33,30 @@
         padding-left: 20%;
         width: 100%;
     }
+    .columnas-4c{padding-top: 0;}
 }
 @media (min-width: 320px) and (max-width:768px){
     h1{font-size: 3.1rem;}
+    .headColor{height: 0;}
+    .navegacion{
+        height: 70vh;
+        background-color: transparent;
+        flex-direction: row;
+        align-items: flex-end;
+    }
     .musirech a{
         text-align: center;
     }
     .barra{
         height: 70vh;
         justify-content: center;
+        align-items: baseline;
     }
     .grid{
         display: block;
     }
-
+    .columnas-4c{padding-top: 0;}
+    .grid2{height: 10vh;}
     .barra2{
         display: flex;
         flex-direction: column;
@@ -64,9 +73,6 @@
         margin-bottom: 1.5rem;
     }
     .fondopages{
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.199), rgba(255, 255, 255, 0.973)), url(../img/albumimg/EcosJack.jpg);
-        background-size: cover;
-        background-position: center;
         height: 97vh;
     }
     .fondfooter{height: 40vh;}
