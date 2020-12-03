@@ -75,7 +75,6 @@
     color: transparent;
 }
 .musirech a{
-    letter-spacing: 5px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color:white;
@@ -125,3 +124,15 @@
 .vpy{
     width: 1.5rem;
 }
+.repro{    height: 80vh;}
+.listre{
+    height: 15vh;
+    display: flex;
+    border: solid 1px #bebebe;
+    color: black;
+    align-items: center;
+}
+.imglist{width: 12.5vh;}
+.iconlist{width: 10vh;}
+.septi{padding-left: 1rem;}
+p .artist{color:#313131; font-size: 0.9rem;}
