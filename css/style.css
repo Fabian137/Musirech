@@ -128,11 +128,11 @@
 .listre{
     height: 15vh;
     display: flex;
-    border: solid 1px #bebebe;
     color: black;
     align-items: center;
+    justify-content: space-around;
 }
 .imglist{width: 12.5vh;}
-.iconlist{width: 10vh;}
+.iconlist{width: 7vh;}
 .septi{padding-left: 1rem;}
 p .artist{color:#313131; font-size: 0.9rem;}
