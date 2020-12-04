@@ -37,6 +37,24 @@ p{font-size: 1rem; margin: 0;}
 .columnas-1{flex: 0 0 8.33333333%;}
 .columnas-2{flex: 0 0 calc(16.66666%);}
 .columnas-3{flex: 0 0 calc(25%);}
+.columnas-3pod{flex: 0 0 25%;
+background-color:black;
+display: flex;
+align-items: center;
+justify-content: center;}
+.columnas-3c{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(25% - 1rem);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5rem}
+  .columnas-3ca{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(25% - 10rem);
+    justify-content: space-around;
+    margin-top: 1.5rem}
 .columnas-4{flex: 0 0 calc(33.3333%);}
 .columnas-4c{
   display: flex;

@@ -10,7 +10,7 @@
 /* Header */
 .headColor{background-color: #000000;}
 .headColumn{
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/thumb-1920-34981.jpg);
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(../img/franz-still.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -27,6 +27,62 @@
     background-size: cover;
     background-position: center;
     height: 30vh;
+}
+.fondfooter2{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.89)), url(../img/franz-still.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+.fondrecom{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.574), rgba(0, 0, 0, 0.582)), url(../img/albumimg/motherblood.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.fondrecom2{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.574), rgba(0, 0, 0, 0.582)), url(../img/albumimg/max2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.fondrecom3{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.574), rgba(0, 0, 0, 0.582)), url(../img/albumimg/wall.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.fondrecom4{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.574), rgba(0, 0, 0, 0.582)), url(../img/albumimg/cosas.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.fondrecom5{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.574), rgba(0, 0, 0, 0.582)), url(../img/albumimg/creativo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.recom h3{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+.recom2 h3{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color:white;
 }
 .barra{
     display: flex;
@@ -124,15 +180,40 @@
 .vpy{
     width: 1.5rem;
 }
-.repro{    height: 80vh;}
-.listre{
-    height: 15vh;
-    display: flex;
-    color: black;
-    align-items: center;
-    justify-content: space-around;
+.repro{ background-color: #04040f9d;}
+.imglist{width: 12.5vh; margin-bottom: 1rem;}
+.iconlist{width: 5vh;}
+.septi{color:black}
+.artist a{color:#46004e; font-size: 0.9rem;}
+a{text-decoration:none;}
+.btndis{ 
+padding: 1rem 2.5rem; 
+background-color:rgba(255, 0, 0, 0.089);
+font-size: 1.25rem;
+transition: background-color .5s;
+color:white;}
+.btndis:hover{
+background-color: #a00000a6;
 }
-.imglist{width: 12.5vh;}
-.iconlist{width: 7vh;}
-.septi{padding-left: 1rem;}
-p .artist{color:#313131; font-size: 0.9rem;}
+.btndis2{ 
+    padding: 1rem 2.5rem; 
+    background-color:rgba(0, 0, 0, 0.822);
+    font-size: 1.25rem;
+    transition: background-color .5s;
+    color: white;
+}
+.btndis2:hover{
+    background-color: #fafafa;
+    color: black;
+}
+.btndis4{ 
+    padding: 1rem 2.5rem; 
+    background-color:rgba(241, 241, 241, 0.897);
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background-color .5s;
+    color: #1b35cc;
+}
+.btndis4:hover{
+    background-color: #000000;
+}
