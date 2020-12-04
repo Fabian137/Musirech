@@ -9,34 +9,22 @@
   main {
     display: block;
   }
-h1{
-  font-size: 3.4rem;
-  margin: 0.4rem 0;
-}
-h2,h3,h4{
-    font-family: sans-serif;
-}
-h2{
-    font-size: 3rem;
-}
+h1{font-size: 2.9rem; margin:0;}
+h2,h3,h4{font-family: sans-serif;}
+h2{font-size: 2.7rem;}
 h3{
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin: 0.5rem 0;
 }
-h4{
-    font-size: 2rem;
-    font-weight: 100;
-}
+h4{font-size: 2rem;font-weight: 100;}
 p{font-size: 1rem; margin: 0;}
 .grid{
   display: flex;
   justify-content: space-between;
 }
-.centrar-column{justify-content: center;}
-.columnas-1{flex: 0 0 8.33333333%;}
-.columnas-2{flex: 0 0 calc(16.66666%);}
-.columnas-3{flex: 0 0 calc(25%);}
+.columnas{flex: 0 0 30%;}
+.columnas-3{flex: 0 0 25%;}
 .columnas-3pod{flex: 0 0 25%;
 background-color:black;
 display: flex;
@@ -67,8 +55,8 @@ justify-content: center;}
 .columnas-5{flex: 0 0 41.6666%;}
 .columnas-7{flex: 0 0 58.3333%;}
 .columnas-8{flex: 0 0 calc(66.666666%);}
-.columnas-10{flex: 0 0 calc(83.33% - 1rem);}
-.columnas-9{ flex: 0 0 calc(75%);}
+.columnas-h{ flex: 0 0 70%;}
+.columnas-9{ flex: 0 0 75%;}
 .columnas-12{flex: 0 0 calc(100% - 1rem);}
 .columnas-12c{flex: 0 0 100%;}
   hr {
